@@ -1,0 +1,23 @@
+## Interface: 50500
+## Version: 1.0
+## Author: Pirson
+
+## Title: |TInterface/Addons/LeaveInstanceGroup/img/logo_lig:16:16|t |cffd597ffLeave Instance Group|r
+
+## Notes: |cFF33CCFFAdds the missing 'Leave Instance Group' option to the player unit frame menu with a confirmation popup.|r
+## Notes-deDE: |cFF33CCFFFügt die fehlende Option 'Instanzgruppe verlassen' zum Spieler-Einheitenmenü hinzu, mit Bestätigungs-Popup.|r
+## Notes-esES: |cFF33CCFFAñade la opción faltante 'Salir de la estancia' al menú de retrato del jugador con ventana de confirmación.|r
+## Notes-esMX: |cFF33CCFFAñade la opción faltante 'Salir de la estancia' al menú de retrato del jugador con ventana de confirmación.|r
+## Notes-frFR: |cFF33CCFFAjoute l’option manquante 'Quitter l’instance' au menu du portrait du joueur avec une fenêtre de confirmation.|r
+## Notes-itIT: |cFF33CCFFAggiunge l’opzione mancante 'Lascia l’istanza' al menu del ritratto del giocatore con finestra di conferma.|r
+## Notes-koKR: |cFF33CCFF플레이어 초상화 메뉴에 '던전 나가기' 옵션을 추가하고 확인 팝업을 표시합니다.|r
+## Notes-ptBR: |cFF33CCFFAdiciona a opção ausente 'Sair da instância' ao menu do retrato do jogador com janela de confirmação.|r
+## Notes-ptPT: |cFF33CCFFAdiciona a opção ausente 'Sair da instância' ao menu do retrato do jogador com janela de confirmação.|r
+## Notes-ruRU: |cFF33CCFFДобавляет отсутствующую опцию 'Покинуть подземелье' в меню портрета игрока с окном подтверждения.|r
+## Notes-zhCN: |cFF33CCFF在玩家头像菜单中添加缺少的“离开副本”选项，并带有确认窗口。|r
+## Notes-zhTW: |cFF33CCFF在玩家頭像選單中新增缺少的「離開副本」選項，並帶有確認視窗。|r
+
+## X-Curse-Project-ID: 1308020
+
+Locale.lua
+LeaveInstanceGroup.lua
