@@ -1,5 +1,5 @@
-## Interface: 50500
-## Version: 1.0
+## Interface: 50501
+## Version: 1.01
 ## Author: Pirson
 
 ## Title: |TInterface/Addons/LeaveInstanceGroup/img/logo_lig:16:16|t |cffd597ffLeave Instance Group|r
