@@ -1,7 +1,14 @@
 local ADDON_NAME, ns = ...
 local L = ns.L
 
-StaticPopupDialogs["LEAVE_INSTANCE_GROUP_CONFIRM"] = {
+_G.UnitPopupPartyInstanceLeaveButtonMixin.CanShow = function(self)
+    return IsInGroup(LE_PARTY_CATEGORY_INSTANCE)
+end
+
+C_PartyInfo = C_PartyInfo or {}
+C_PartyInfo.IsPartyWalkIn = C_PartyInfo.IsPartyWalkIn or function() return false end
+
+StaticPopupDialogs["LEAVE_INSTANCE_GROUP"] = {
     text = L["LEAVE_INSTANCE_QUESTION"],
     button1 = YES,
     button2 = NO,
@@ -14,13 +21,6 @@ StaticPopupDialogs["LEAVE_INSTANCE_GROUP_CONFIRM"] = {
     preferredIndex = 3,
 }
 
-hooksecurefunc("UnitPopup_ShowMenu", function(dropdownMenu, which, unit, name, userData)
-    if which == "SELF" and IsInGroup(LE_PARTY_CATEGORY_INSTANCE) then
-        local info = UIDropDownMenu_CreateInfo()
-        info.text = L["LEAVE_INSTANCE_GROUP"]
-        info.func = function()
-            StaticPopup_Show("LEAVE_INSTANCE_GROUP_CONFIRM")
-        end
-        UIDropDownMenu_AddButton(info)
-    end
-end)
+function _G.UnitPopupPartyInstanceLeaveButtonMixin:OnClick(contextData)
+    StaticPopup_Show("LEAVE_INSTANCE_GROUP")
+end
