@@ -17,7 +17,7 @@
 ## Notes-zhCN: |cFF33CCFF在玩家头像菜单中添加缺少的“离开副本”选项，并带有确认窗口。|r
 ## Notes-zhTW: |cFF33CCFF在玩家頭像選單中新增缺少的「離開副本」選項，並帶有確認視窗。|r
 
-## X-Curse-Project-ID: 1308020
+## X-Curse-Project-ID: 1349365
 
 Locale.lua
 LeaveInstanceGroup.lua
