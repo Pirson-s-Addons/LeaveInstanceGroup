@@ -1,8 +1,55 @@
 ## Interface: 50500, 50501, 50502, 50503, 50504
-## Version: 1.04
+## Version: 1.05
 ## Author: Pirson
 
-## Title: |TInterface/Addons/LeaveInstanceGroup/img/logo_lig:16:16|t |cffd597ffLeave Instance Group|r
+## IconTexture: Interface\AddOns\LeaveInstanceGroup\img\logo_lig
+## Title: |cffd597ffLeave Instance Group|r
+
+# https://warcraft.wiki.gg/wiki/Addon_Categories
+## Category: Unit Frames
+## Category-deDE: Einheitenfenster
+## Category-esES: Marcos de unidad
+## Category-esMX: Marcos de unidad
+## Category-frFR: Cadres d'unité
+## Category-itIT: Riquadri delle unità
+## Category-koKR: 개체 창
+## Category-ptBR: Quadros de unidade
+## Category-ruRU: Рамки юнитов
+## Category-zhCN: 单位框体
+## Category-zhTW: 單位框架
+## Category-plPL: Ramki jednostek
+## Category-svSE: Enhetsramar
+## Category-noNO: Enhetsrammer
+## Category-csCZ: Rámečky jednotek
+## Category-nlNL: Eenheidsframes
+## Category-roRO: Cadre de unitate
+## Category-huHU: Egységkeretek
+## Category-elGR: Πλαίσια μονάδων
+## Category-ukUA: Рамки юнітів
+## Category-daDK: Enhedsrammer
+## Category-fiFI: Yksikkökehykset
+## Category-skSK: Rámčeky jednotiek
+## Category-bgBG: Рамки на единици
+## Category-hrHR: Okviri jedinica
+## Category-srRS: Okviri jedinica
+## Category-slSI: Okvirji enot
+## Category-ltLT: Vienetų rėmeliai
+## Category-lvLV: Vienību rāmji
+## Category-etEE: Üksuste raamid
+## Category-idID: Bingkai unit
+## Category-msMY: Bingkai unit
+## Category-faIR: قاب‌های واحد
+## Category-heIL: מסגרות יחידה
+## Category-bnBD: ইউনিট ফ্রেম
+## Category-urPK: یونٹ فریمز
+## Category-taIN: அலகு சட்டங்கள்
+## Category-teIN: యూనిట్ ఫ్రేమ్‌లు
+## Category-trTR: Birim çerçeveleri
+## Category-jaJP: ユニットフレーム
+## Category-arSA: إطارات الوحدات
+## Category-hiIN: यूनिट फ़्रेम
+## Category-thTH: กรอบยูนิต
+## Category-viVN: Khung đơn vị
 
 ## Notes: |cFF33CCFFAdds the missing 'Leave Instance Group' option to the player unit frame menu with a confirmation popup.|r
 ## Notes-deDE: |cFF33CCFFFügt die fehlende Option 'Instanzgruppe verlassen' zum Spieler-Einheitenmenü hinzu, mit Bestätigungs-Popup.|r
@@ -12,12 +59,63 @@
 ## Notes-itIT: |cFF33CCFFAggiunge l’opzione mancante 'Lascia l’istanza' al menu del ritratto del giocatore con finestra di conferma.|r
 ## Notes-koKR: |cFF33CCFF플레이어 초상화 메뉴에 '던전 나가기' 옵션을 추가하고 확인 팝업을 표시합니다.|r
 ## Notes-ptBR: |cFF33CCFFAdiciona a opção ausente 'Sair da instância' ao menu do retrato do jogador com janela de confirmação.|r
-## Notes-ptPT: |cFF33CCFFAdiciona a opção ausente 'Sair da instância' ao menu do retrato do jogador com janela de confirmação.|r
 ## Notes-ruRU: |cFF33CCFFДобавляет отсутствующую опцию 'Покинуть подземелье' в меню портрета игрока с окном подтверждения.|r
 ## Notes-zhCN: |cFF33CCFF在玩家头像菜单中添加缺少的“离开副本”选项，并带有确认窗口。|r
 ## Notes-zhTW: |cFF33CCFF在玩家頭像選單中新增缺少的「離開副本」選項，並帶有確認視窗。|r
+## Notes-plPL: |cFF33CCFFDodaje brakującą opcję „Opuść grupę instancji” do menu ramki gracza, z oknem potwierdzenia.|r
+## Notes-svSE: |cFF33CCFFLägger till det saknade alternativet ”Lämna instansgrupp” i spelarramens meny, med en bekräftelseruta.|r
+## Notes-noNO: |cFF33CCFFLegger til det manglende valget «Forlat instansgruppe» i spillerrammens meny, med en bekreftelse.|r
+## Notes-csCZ: |cFF33CCFFPřidá chybějící možnost „Opustit skupinu instance“ do nabídky rámečku hráče s potvrzovacím oknem.|r
+## Notes-nlNL: |cFF33CCFFVoegt de ontbrekende optie 'Instantiegroep verlaten' toe aan het menu van het spelerframe, met een bevestiging.|r
+## Notes-roRO: |cFF33CCFFAdaugă opțiunea lipsă „Părăsește grupul de instanță” în meniul cadrului jucătorului, cu o fereastră de confirmare.|r
+## Notes-huHU: |cFF33CCFFHozzáadja a hiányzó „Instance csoport elhagyása” opciót a játékoskeret menüjéhez, megerősítő ablakkal.|r
+## Notes-elGR: |cFF33CCFFΠροσθέτει την επιλογή «Αποχώρηση από ομάδα instance» που λείπει στο μενού του πλαισίου παίκτη, με παράθυρο επιβεβαίωσης.|r
+## Notes-ukUA: |cFF33CCFFДодає відсутній пункт «Покинути групу підземелля» до меню рамки гравця з вікном підтвердження.|r
+## Notes-daDK: |cFF33CCFFTilføjer den manglende indstilling 'Forlad instansgruppe' i spillerrammens menu med en bekræftelse.|r
+## Notes-fiFI: |cFF33CCFFLisää puuttuvan ”Poistu instanssiryhmästä” -valinnan pelaajakehyksen valikkoon vahvistusikkunan kanssa.|r
+## Notes-skSK: |cFF33CCFFPridá chýbajúcu možnosť „Opustiť skupinu inštancie“ do ponuky rámčeka hráča s potvrdzovacím oknom.|r
+## Notes-bgBG: |cFF33CCFFДобавя липсващата опция „Напусни групата на инстанса“ в менюто на рамката на играча, с прозорец за потвърждение.|r
+## Notes-hrHR: |cFF33CCFFDodaje nedostajuću opciju „Napusti grupu instance” u izbornik okvira igrača, uz prozor za potvrdu.|r
+## Notes-srRS: |cFF33CCFFDodaje opciju „Napusti grupu instance” koja nedostaje u meni okvira igrača, uz prozor za potvrdu.|r
+## Notes-slSI: |cFF33CCFFDoda manjkajočo možnost »Zapusti skupino instance« v meni okvirja igralca, z oknom za potrditev.|r
+## Notes-ltLT: |cFF33CCFFPrideda trūkstamą parinktį „Palikti instancijos grupę“ į žaidėjo rėmelio meniu su patvirtinimo langu.|r
+## Notes-lvLV: |cFF33CCFFPievieno trūkstošo opciju “Pamest instances grupu” spēlētāja rāmja izvēlnei ar apstiprinājuma logu.|r
+## Notes-etEE: |cFF33CCFFLisab puuduva valiku „Lahku instantsi grupist“ mängija raami menüüsse koos kinnitusaknaga.|r
+## Notes-idID: |cFF33CCFFMenambahkan opsi 'Tinggalkan Grup Instance' yang hilang ke menu bingkai pemain dengan jendela konfirmasi.|r
+## Notes-msMY: |cFF33CCFFMenambah pilihan 'Tinggalkan Kumpulan Instance' yang tiada ke menu bingkai pemain dengan tetingkap pengesahan.|r
+## Notes-faIR: |cFF33CCFFگزینه‌ی گمشده‌ی «ترک گروه اینستنس» را با پنجره‌ی تأیید به منوی قاب بازیکن اضافه می‌کند.|r
+## Notes-heIL: |cFF33CCFFמוסיף את האפשרות החסרה 'עזוב קבוצת מבוך' לתפריט מסגרת השחקן, עם חלון אישור.|r
+## Notes-bnBD: |cFF33CCFFপ্লেয়ার ফ্রেম মেনুতে অনুপস্থিত 'ইনস্ট্যান্স গ্রুপ ছাড়ুন' অপশন নিশ্চিতকরণ পপআপসহ যোগ করে।|r
+## Notes-urPK: |cFF33CCFFپلیئر فریم مینو میں غائب 'انسٹینس گروپ چھوڑیں' آپشن تصدیقی پاپ اپ کے ساتھ شامل کرتا ہے۔|r
+## Notes-taIN: |cFF33CCFFவீரர் சட்ட மெனுவில் இல்லாத 'இன்ஸ்டன்ஸ் குழுவை விட்டு வெளியேறு' விருப்பத்தை உறுதிப்படுத்தல் சாளரத்துடன் சேர்க்கிறது.|r
+## Notes-teIN: |cFF33CCFFప్లేయర్ ఫ్రేమ్ మెనూలో లేని 'ఇన్‌స్టెన్స్ గ్రూప్ వదిలేయి' ఎంపికను నిర్ధారణ పాపప్‌తో జోడిస్తుంది.|r
+## Notes-trTR: |cFF33CCFFOyuncu çerçevesi menüsüne eksik olan 'Zindan Grubundan Ayrıl' seçeneğini onay penceresiyle ekler.|r
+## Notes-jaJP: |cFF33CCFFプレイヤーフレームのメニューに、確認ポップアップ付きで欠けている「インスタンスグループから抜ける」を追加します。|r
+## Notes-arSA: |cFF33CCFFيضيف خيار «مغادرة مجموعة الزنزانة» المفقود إلى قائمة إطار اللاعب مع نافذة تأكيد.|r
+## Notes-hiIN: |cFF33CCFFप्लेयर फ़्रेम मेनू में गायब 'इंस्टेंस समूह छोड़ें' विकल्प पुष्टि पॉपअप के साथ जोड़ता है।|r
+## Notes-thTH: |cFF33CCFFเพิ่มตัวเลือก 'ออกจากกลุ่มอินสแตนซ์' ที่ขาดหายไปในเมนูกรอบผู้เล่น พร้อมหน้าต่างยืนยัน|r
+## Notes-viVN: |cFF33CCFFThêm tùy chọn 'Rời nhóm phó bản' còn thiếu vào menu khung người chơi, kèm hộp xác nhận.|r
 
 ## X-Curse-Project-ID: 1349365
 
-Locale.lua
-LeaveInstanceGroup.lua
+Locales/enUS.lua
+Locales/esES.lua
+Locales/deDE.lua
+Locales/frFR.lua
+Locales/itIT.lua
+Locales/ptBR.lua
+Locales/ruRU.lua
+Locales/koKR.lua
+Locales/zhCN.lua
+Locales/zhTW.lua
+Locales/plPL.lua
+Locales/svSE.lua
+Locales/noNO.lua
+Locales/trTR.lua
+Locales/jaJP.lua
+Locales/arSA.lua
+Locales/hiIN.lua
+Locales/thTH.lua
+Locales/viVN.lua
+Locales/csCZ.lua
+Core/LeaveInstanceGroup.lua
