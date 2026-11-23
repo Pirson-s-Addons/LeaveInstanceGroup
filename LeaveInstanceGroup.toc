@@ -97,6 +97,7 @@
 ## Notes-viVN: |cFF33CCFFThêm tùy chọn 'Rời nhóm phó bản' còn thiếu vào menu khung người chơi, kèm hộp xác nhận.|r
 
 ## X-Curse-Project-ID: 1349365
+## X-Wago-ID: v63QAkGb
 ## X-License: MIT
 ## X-Copyright: Copyright (c) 2025-2026 Pirson
 ## X-Website: https://github.com/Pirson-s-Addons/LeaveInstanceGroup
